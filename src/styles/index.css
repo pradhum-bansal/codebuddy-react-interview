@@ -1,3 +1,39 @@
 body {
   font-size: 16px;
 }
+.card{
+  border: 1px solid lightgray !important;
+}
+.card:hover{
+  scale: 1.01;
+}
+.card-header{
+  background-color: transparent !important;
+}
+.card-footer{
+  background-color: transparent !important;
+}
+.img{
+  object-fit: contain !important;
+}
+p{
+  margin-bottom: 0 !important ;
+}
+
+.request-card{
+  flex-grow: 0;
+  border-radius: 4px;
+  max-width: 450px;
+  margin: auto;
+  /* border: 1px solid lightgrey; */
+
+}
+label{
+  display: block !important;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  /* border-radius: 5px; */
+}
